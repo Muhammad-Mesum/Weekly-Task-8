@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(Img/home\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.logo img{
+    padding: 80px 100px;
+    height: 300px;
+}
+
+/* Navbar Start Here  */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color:teal;
+    /* height: 50px; */
+    width: 1000px;
+    position: absolute;
+    right: 100px;
+    margin-top: 50px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;color: white;
+    font-size: 15px;
+}
+
+.media-links{
+    display: flex;
+    /* height: 50px; */
+    /* width: 300px; */
+    background-color: white;
+    position: absolute;
+    right: 100px;
+}
+
+.media-links div{
+    padding: 20px;
+}
+
+.fb , .tweeter{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.contact{
+    background-color: orangered;
+    color: white;
+}
+
+/* Features */
+
+#features{
+    height: 100vh auto;
+    display: flex;
+    margin: 0 auto;
+    padding: 60px;
+    
+}
+
+.in-out-door img{
+    height: 300px;
+}
+
+.in-out-door div{
+    margin: 0px 3px 3px 3px;
+}
+.outdoor, .indoor{
+    display: flex;
+}
+.in-out-door{
+    display: flex;
+    flex-direction: column;
+}
+
+.outdoor-text , .indoor-text{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.outdoor-text{
+    background-color:rgb(0, 139, 53);
+
+}
+
+.indoor-text{
+    background-color:rgb(202, 140, 5);
+
+}
+
+.garden-img img{
+    height: 600px;
+    width: auto;
+    margin: 3px;
+
+}
+
+/* Welcome Section  */
+
+#welcome{
+    height: 100vh auto;
+}
+
+/* Welcome Text  */
+#welcome .welcome-text{
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+}
+
+
+/* stying all book now buttons */
+button{
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(0, 165, 82);
+    color: white;
+    font-weight: bold;
+}
+
+/* sample images */
+
+.sample-pics{
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    background-image: url(Img/left\ side.jpg);
+    height: 400px;
+    background-size: cover;
+    width: 600px;
+
+
+}
+.center-circle{
+    background-image: url(Img/circle\ img.jpg);
+    height: 200px;
+    background-size: cover;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+#middle-c-img{
+
+}
+
+.right-side{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.836)) , url(Img/right\ side.jpg);
+    height: 400px;
+    background-size: cover;
+    width: 600px;
+    color: white;
+}
+
+.rs-text{
+    text-align: left;
+    padding: 100px 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* Virtual Tour */
+
+#virtual-tour{
+    height: 100vh auto;
+}
+
+.vtour-text{
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.vtour-content{
+    display: flex;
+    flex-basis: 50%;
+    padding: 30px;
+    align-items: center;
+}
+
+.video video{
+    height: 300px;
+    
+}
+
+.amenities{
+    margin: 0 auto;
+    padding: 50px 30px;
+    font-size: 15px;
+    
+}
+.ameniti-icons{
+    display: flex;
+    line-height: 50px;
+}
+.ameniti-icons div{
+    margin: 0 10px;
+}
+
+.ameniti-icons i{
+    color: rgb(0, 168, 104);
+}
+
+/* Offers */
+
+#offers{
+    height: 30vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(Img/green\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+.offer{
+    border: 1px solid white;
+    padding: 40px 30px;
+}
+
+/* Weather  */
+
+#weather{
+    height: 80vh auto;
+    display: flex;
+    padding: 60px 180px;
+    text-align: center;
+}
+
+#rating{
+    flex-basis: 60%;
+    line-height: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    height: 70px;
+    color: white;
+    padding: 0 20px;
+    
+}
+
+.linebreak-w{
+    margin: 20px 30px;
+}
+
+.availabel{
+    background-color:rgb(50, 146, 93);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.rating{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 40px;
+    height: 300px;
+}
+
+.rating div{
+    flex-basis: 33%;
+}
+
+.r-percant{
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(50, 146, 93) ;
+}
+
+.weather-now{
+    flex-basis: 20%;
+}
+.weather-now h2{
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    color: rgb(50, 146, 93);
+}
+
+.live-w{
+    background-color: rgb(50, 146, 93) ;
+    height: 300px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.live-w i{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.live-w a{
+    text-decoration: none;
+    color: white;
+
+}
+.live-w div{
+    margin: 10px 30px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+
+
+
+/* Tweewt */
+
+.tweet{
+    height: 80vh auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.692)) , url(img/tweet\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+
+
+}
+
+.tweet-text{
+    flex-basis: 50%;
+    font-size: 18px;
+    /* color: white; */
+    line-height: 30px;
+    padding: 40px 0px;
+}
+
+.tweet-text p{
+    padding: 20px 0;
+}
+
+.tweet-img img{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.tweet-heading{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+/* Sign Up  */
+
+#signup{
+    height: 100vh auto;
+    display: flex;
+    flex-basis: 20%;
+    text-align: center;
+    line-height: 30px;
+    padding: 60px;
+    color: white;
+}
+
+#signup img{
+    height: 200px;
+
+}
+
+#signup h4{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#signup p{
+    padding: 30px 10px;
+    
+    
+}
+
+#signup a{
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 50px;
+}
+
+#signup div{
+    padding: 30px;
+
+}
+
+.subscribe{
+    flex-basis: 30%;
+    
+}
+.subscribe h2{
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.subscribe button{
+    background-color: orange;
+
+}
+
+.subscribe input{
+    width: 200px;
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.living-room , .garage{
+    background-color:rgb(0, 165, 137);
+}
+
+.fineplace , .subscribe{
+    background-color: rgb(3, 148, 124);
+}
+
+/* Map  */
+
+#maps{
+    height: 100vh auto;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(63, 150, 135);
+}
+
+
+
+/* Footer  */
+
+footer{
+    height: 60vh auto;
+    background-color: rgb(20, 20, 20);
+
+}
+.footer{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.branches{
+    display: flex;
+
+}
+
+.branches div{
+    margin: 40px;
+}
+
+.branches p{
+    color: rgb(160, 160, 160);
+    padding-top: 20px;
+}
+
+.gototop{
+    color:rgb(160, 160, 160) ;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+/* Css End Here  */
+
+/* Responsiveness Css Start Here  */
+
+
+@media (max-width:1100px) {
+    
+    /* header section  */
+    .logo img{
+        height: 250px;
+
+    }
+    .nav{
+        width: 900px;
+    }
+   
+    
+    nav ul li a{
+        font-size: 12px;
+    }
+
+        /* Features */
+
+
+    .in-out-door img{
+        height: 250px;
+    }
+
+
+    .outdoor-text , .indoor-text{
+        height: 250px;
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .garden-img img{
+        height: 500px;
+
+    }
+
+    /* sample images */
+
+
+.center-circle{
+    display: none;
+
+}
+
+    /* signup  */
+
+    #signup{
+        height: 100vh auto;
+        line-height: 25px;
+        padding: 50px;
+    }
+    
+    #signup img{
+        height: 150px;
+    
+    }
+    
+    #signup h4{
+        font-size: 20px;
+        margin-top: 17px;
+    }
+    
+    #signup a{
+        padding: 10px 10px;
+        font-size: 12px;
+        margin: 30px;
+    }
+    
+    #signup div{
+        padding: 10px;
+    
+    }
+    
+    
+}
+
+@media (max-width:1000px) {
+    
+    /* header section  */
+    .logo img{
+        height: 220px;
+
+    }
+    .nav{
+        width: 800px;
+    }
+   
+    
+    nav ul li a{
+        font-size: 10px;
+    }
+
+     /* Features */
+
+
+    .in-out-door img{
+        height: 200px;
+    }
+
+
+    .outdoor-text , .indoor-text{
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .garden-img img{
+        height: 400px;
+
+    }
+
+    /* Virtual tour  */
+
+    .video video{
+        height: 250px;
+        
+    }
+
+
+}
+
+@media (max-width:900px) {
+    
+    /* header section  */
+    .logo img{
+        height: 200px;
+
+    }
+    .nav{
+        display: none;
+    }
+   
+    
+    nav ul li a{
+        font-size: 10px;
+    }
+
+    /* Features */
+
+
+    .in-out-door img{
+        height: 150px;
+    }
+
+
+    .outdoor-text , .indoor-text{
+        height: 150px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .garden-img img{
+        height: 300px;
+
+    }
+    .tweet-text{
+        font-size: 14px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+    
+    
+}
+
+@media (max-width:700px) {
+    /* features  */
+
+    .in-out-door img{
+        height: 200px;
+    }
+
+
+    .outdoor-text , .indoor-text{
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .garden-img img{
+        display: none;
+
+    }
+
+    /* sample images  */
+
+    
+    .rs-text{
+     font-size: 15px;
+}
+    .rs-text button{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    
+    /* Virtual tour  */
+
+    .video video{
+        height: 200px;
+        
+    }
+
+    .vtour-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Offers */
+
+    #offers{
+        font-size: 16px;
+}
+    .offer{
+      padding: 30px 20px;
+}
+
+#weather{
+    display: flex;
+    flex-direction: column;
+}
+.rating{
+    font-size: 10px;
+}
+
+.tweet-text{
+    font-size: 10px;
+}
+
+.tweet-text button{
+    padding: 10px 20px;
+}
+
+.tweet-img img{
+    height: 200px;
+}
+}
+
+@media (max-width:500px) {
+    /* features  */
+
+    .in-out-door img{
+        height: 130px;
+    }
+
+
+    .outdoor-text , .indoor-text{
+        height: 130px;
+        width: 130px;
+        font-size: 13px;
+    }
+
+     /* sample images  */
+
+    
+     .rs-text{
+       line-height: 20px;
+  }
+
+    .left-side{
+        display: none;
+    }
+
+    /* Offers */
+
+    #offers{
+        font-size: 15px;
+}
+    .offer{
+      padding: 25px 15px;
+}
+
+.top{
+    font-size: 10px;
+    
+    padding: 0 15px;
+    
+}
+
+.availabel{
+    padding: 10px 20px;
+
+}
+
+    /* Tweewt */
+
+    .tweet{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tweet-img img{
+        height: 100px;
+    }
+
+    footer{
+        font-size: 5px;
+    }
+
+
+    
+}
+
+@media (max-width:350px) {
+    .media-links div{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    
+}
